@@ -1,0 +1,22 @@
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "airbnb-base"],
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": [2, "always"],
+        "indent": ["error", 4],
+        "comma-dangle": ["error", "never"],
+        "no-underscore-dangle": 0,
+        "no-trailing-spaces": 0
+    }
+}
